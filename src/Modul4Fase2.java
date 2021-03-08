@@ -47,7 +47,7 @@ public class Modul4Fase2 {
 			comanda.add(eleccio);
 		
 			
-			System.out.println("Vols demanar un altre plat: 1 si 0 no");	
+			System.out.println("Si vols demanar un altre plat marca el número 1, si vols acabar de demanar, marcael número 0");	
 			resp=sc4.nextInt();
 			
 			}
