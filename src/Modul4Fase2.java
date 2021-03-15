@@ -39,7 +39,7 @@ public class Modul4Fase2 {
 		Scanner sc4=new Scanner(System.in);
 		ArrayList<String> comanda = new  ArrayList <String>();
 		System.out.println(" ");
-		while  (resp>=1) {
+		while  (resp==1) {
 			
 			System.out.println("Introdueixi el nom del plat que vol demanà:");
 			eleccio=sc3.nextLine();
