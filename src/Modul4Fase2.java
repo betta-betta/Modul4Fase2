@@ -38,7 +38,7 @@ public class Modul4Fase2 {
 		Scanner sc3=new Scanner(System.in);
 		Scanner sc4=new Scanner(System.in);
 		ArrayList<String> comanda = new  ArrayList <String>();
-		System.out.println(" no");
+		System.out.println(" ");
 		while  (resp>=1) {
 			
 			System.out.println("Introdueixi el nom del plat que vol demanà:");
@@ -47,7 +47,7 @@ public class Modul4Fase2 {
 			comanda.add(eleccio);
 		
 			
-			System.out.println("Si vols demanar un altre plat marca el número 1, si vols acabar de demanar, marcael número 0");	
+			System.out.println("Si vols demanar un altre plat marca el número 1, si vols acabar de demanar, introdueix cualsevol altre número");	
 			resp=sc4.nextInt();
 			
 			}
